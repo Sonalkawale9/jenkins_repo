@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonal Smart Shopping Center</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column; /* Allows content to flow vertically */
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* The new Main Title at the top */
+        .main-title {
+            font-size: 2.5rem;
+            color: #ffffff;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+            margin-bottom: 20px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .list-container {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 2rem;
+            border-radius: 20px;
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
+            width: 350px;
+        }
+
+        h2 {
+            color: #d63384;
+            text-align: center;
+            margin-bottom: 1.5rem;
+            border-bottom: 2px solid #ffb3c1;
+            padding-bottom: 10px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            background: #fff;
+            margin: 8px 0;
+            padding: 12px 15px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: transform 0.2s;
+            border-left: 5px solid #ff9a9e;
+        }
+
+        li:hover {
+            transform: scale(1.03);
+            background: #fff0f3;
+        }
+
+        .item-name {
+            font-weight: bold;
+            color: #444;
+        }
+
+        .price {
+            color: #28a745;
+            font-weight: 600;
+        }
+
+        .emoji {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main-title">Sonal Fruits Shopping Center</div>
+
+    <div class="list-container">
+        <h2>Fresh Fruits</h2>
+        <ul>
+            <li>
+                <span><span class="emoji">🍎</span><span class="item-name">Apple</span></span>
+                <span class="price">$2/kg</span>
+            </li>
+            <li>
+                <span><span class="emoji">🍌</span><span class="item-name">Banana</span></span>
+                <span class="price">$30/doz</span>
+            </li>
+            <li>
+                <span><span class="emoji">🍓</span><span class="item-name">Strawberry</span></span>
+                <span class="price">$40/pack</span>
+            </li>
+            <li>
+                <span><span class="emoji">🥭</span><span class="item-name">Mango</span></span>
+                <span class="price">$5/kg</span>
+            </li>
+            <li>
+                <span><span class="emoji">🍇</span><span class="item-name">Grapes</span></span>
+                <span class="price">$3/box</span>
+            </li>
+            <li>
+                <span><span class="emoji">🍍</span><span class="item-name">Pineapple</span></span>
+                <span class="price">$4/each</span>
+            </li>
+            <li>
+                <span><span class="emoji">🍊</span><span class="item-name">Orange</span></span>
+                <span class="price">$2.5/kg</span>
+            </li>
+            <li>
+                <span><span class="emoji">🍉</span><span class="item-name">Watermelon</span></span>
+                <span class="price">$6/each</span>
+            </li>
+            <li>
+                <span><span class="emoji">🥝</span><span class="item-name">Kiwi</span></span>
+                <span class="price">$1/piece</span>
+            </li>
+        </ul>
+    </div>
+
+</body>
+</html>
